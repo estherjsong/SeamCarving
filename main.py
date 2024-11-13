@@ -39,7 +39,7 @@ if __name__ == '__main__':
     input_mask = os.path.join(folder_in, "masks", filename_mask)
     output_image = os.path.join(folder_out, "images", filename_output)
 
-    #image_resize_without_mask(input_image, output_image, new_height, new_width)
+    image_resize_without_mask(input_image, output_image, new_height, new_width)
     #image_resize_with_mask(input_image, output_image, new_height, new_width, input_mask)
     #object_removal(input_image, output_image, input_mask)
 
